@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import "reset.css";
+@import "components/nav-bar.css";
+@import "components/profile.css";
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.resume__column{
+  margin-bottom: 75px;
+  width: 1000px;
+}
+
+.resume__detail{
+  display: flex;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+.resume__title{
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.resume__detail img{
+  width: 150px;
+  height: 150px;
+}
+
+.resume__text {
+  margin: 20px 0px 20px 100px;
+}
+
+.resume__university_box{
+  width: 800px;
+}
+
+.resume__university{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.resume__major{
+  font-size: 18px;
+  font-weight: 700;
+  opacity: 0.7;
+  margin: 10px 0px;
+  font-style: italic;
+}
+
+.resume__courseWork{
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.resume__companyText {
+  margin: 20px 0px 20px 100px;
+}
+
+.resume__companyInfo{
+  width: 800px;
+}
+
+.resume__term{
+  font-size: 15px;
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+.resume__university_term{
+  font-size: 15px;
+  font-weight: 700;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.resume__companyText div:first-child{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  width: 800px;
+}
+
+.resume__position{
+  font-size: 18px;
+  font-weight: 700;
+  opacity: 0.7;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.resume__workDetail li {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+
+.resume__workDetail ul {
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.resume__workDetail ol {
+  margin-bottom: 3px;
+}
+
+.resume__image_tech img{
+  width: 100px;
+  height: 100px;
+  margin-left:25px;
+}
+
+.resume__text_tech{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px 20px 0px;
+}
+.resume__detail_tech{
+  align-items: center;
+  margin: 20px 10px;
+}
+
+.resume__techdetail{
+  font-size: 15px;
+  font-weight: 700;
+}

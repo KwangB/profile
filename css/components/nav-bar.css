@@ -1,0 +1,11 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #24292F;
+}
+
+.nav-bar__column{
+    margin: 20px;
+    color: whitesmoke;
+    font-weight: 800;
+}
